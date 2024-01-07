@@ -57,6 +57,13 @@
             }
           }
         ],
+
+        "react-hooks/exhaustive-deps": "off",
+        "import/no-extraneous-dependencies": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/naming-convention": "off",
+        "no-underscore-dangle": "off", // Allow underscore in variable name
+
         "@typescript-eslint/comma-dangle": "off", // Avoid conflict rule between Eslint and Prettier
         "import/prefer-default-export": "off", // Named export is easier to refactor automatically
         "class-methods-use-this": "off", // _document.tsx use render method without `this` keyword
