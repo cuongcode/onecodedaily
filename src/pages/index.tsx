@@ -79,6 +79,7 @@ const AnimalBoard = () => {
     });
     const updatedBoard = shuffle([...closedBoard]);
     setBoard(updatedBoard);
+    setMissCount(0);
   };
   const _closeCards = (id1: string, id2: string) => {
     const updatedBoard = board.map((animal: any) => {
