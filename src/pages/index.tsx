@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import clsx from 'clsx';
 
-// import { v4 as uuidv4 } from 'uuid';
 import { Main } from '../templates/Main';
 import { Meta } from '../templates/Meta';
 import { AppConfig } from '../utils/AppConfig';
@@ -15,6 +14,7 @@ interface Animal {
   emoji: string;
 }
 
+// https://getemoji.com/#animals-nature
 const ANIMALS: Animal[] = [
   { name: 'dog', emoji: '🐶' },
   { name: 'cat', emoji: '🐱' },
