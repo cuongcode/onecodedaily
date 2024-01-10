@@ -15,6 +15,16 @@ module.exports = {
     },
     extend: {
       colors: {
+        black: '#000000',
+        neutral: '#404040',
+        zinc: {
+          100: '#f4f4f5',
+          200: '#e4e4e7',
+          300: '#d4d4d8',
+          500: '#71717a',
+          800: '#27272a',
+        },
+        error: '#ef4444',
         gray: {
           100: '#f7fafc',
           200: '#edf2f7',
@@ -37,6 +47,9 @@ module.exports = {
           800: '#2c5282',
           900: '#2a4365',
         },
+      },
+      borderRadius: {
+        xm: '4px',
       },
     },
   },
